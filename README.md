@@ -11,6 +11,8 @@ External Validation (Classification)
 Results Summary
 Inference Performance
 Setup
+
+
 1. Requirements
 First, install the necessary Python libraries. A requirements.txt file is provided for easy installation:
 
@@ -25,7 +27,9 @@ GPU Check: Verifies Ultralytics installation and CUDA (GPU) availability.
 Dataset
 1. Source Data
 The raw dataset consists of microscopic blood smear images along with PASCAL VOC XML annotation files, specifying bounding box locations of 'Trophozoite' stage malaria parasites.
+
 Training Dataset Link: https://www.kaggle.com/datasets/rashidrk/makerere-malaria-dataset 
+
 External Validation Dataset Link: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/O2WVWA
 
 3. Local Copy
