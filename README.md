@@ -25,14 +25,16 @@ GPU Check: Verifies Ultralytics installation and CUDA (GPU) availability.
 Dataset
 1. Source Data
 The raw dataset consists of microscopic blood smear images along with PASCAL VOC XML annotation files, specifying bounding box locations of 'Trophozoite' stage malaria parasites.
+Training Dataset Link: https://www.kaggle.com/datasets/rashidrk/makerere-malaria-dataset 
+External Validation Dataset Link: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/O2WVWA
 
-2. Local Copy
+3. Local Copy
 For faster processing, the dataset is copied from Google Drive (/content/drive/MyDrive/malaria_quantitation/full_dataset) to a local Colab directory (/content/local_malaria_data).
 
-3. Preparation for YOLOv8
+4. Preparation for YOLOv8
 The XML annotations are converted to YOLO format (.txt files), and the data is split into 80% training and 20% validation sets. A dataset.yaml configuration file is generated for YOLOv8 training.
 
-4. Ground Truth Visualization
+5. Ground Truth Visualization
 A random image from the training set is visualized with its ground truth bounding box annotations to ensure correct data preparation.
 
 Model Training
